@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: end;
+}
+
+.text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d9fdd3;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.friend {
+  display: flex;
+  justify-content: start;
+  span {
+    background-color: #fff;
+  }
+}

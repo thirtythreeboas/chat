@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eae6df;
+  border: 2px solid #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 14px;
+}
+
+.number {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  max-width: 75%;
+  &:focus {
+    outline: none;
+  }
+}
+
+.addContact {
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  background-color: #5be65b;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  &:hover {
+    background-color: #86e086;
+  }
+}

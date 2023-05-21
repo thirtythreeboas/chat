@@ -1,0 +1,1 @@
+export const getActiveDialog = (messages, chosenChat) => messages.find(e => e.dialog === chosenChat)

@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 115px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  label {
+    color: rgb(88, 88, 85);
+    margin-bottom: 10px;
+  }
+}
+
+.input {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.signIn {
+  border: none;
+  background-color: #008069;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  width: 263px;
+  padding: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: #03a788;
+  }
+}
+
+.userData {
+  color: #b16464;
+  font-family: serif;
+}
