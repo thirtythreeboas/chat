@@ -8,8 +8,8 @@ const initialState = {
   isLoggedIn: false,
   isNumberValid: true,
   authData: {
-    idInstance: '1101823033',
-    apiTokenInstance: '4a5cc2cf6c35473ba2067ebb3e122c5ad75630a39b944576b5'
+    idInstance: '',
+    apiTokenInstance: ''
   }
 }
 
